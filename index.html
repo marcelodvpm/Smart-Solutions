@@ -75,13 +75,21 @@ h2{
 
 .galeria{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns:repeat(3, 1fr);
     gap:20px;
 }
 
 .galeria img{
     width:100%;
+    height:300px;
+    object-fit:cover;
     border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.galeria img:hover{
+    transform:scale(1.03);
 }
 
 footer{
@@ -137,76 +145,62 @@ domótica y energías renovables.
 <section>
 
 <h2>Servicios</h2>
-
 <div class="servicios">
 
-<div class="card">
-<h3>⚡ Instalaciones Eléctricas</h3>
-<p>
-Instalaciones nuevas, ampliaciones,
-tableros y mantenimiento.
-</p>
-</div>
+    <div class="card">
+        <img src="imagenes/electricidad.jpg" alt="Electricidad">
+        <h3>⚡ Instalaciones Eléctricas</h3>
+        <p>Instalaciones nuevas, ampliaciones, tableros y mantenimiento.</p>
+    </div>
 
-<div class="card">
-<h3>📹 CCTV</h3>
-<p>
-Instalación y configuración de cámaras
-de seguridad y monitoreo remoto.
-</p>
-</div>
+    <div class="card">
+        <img src="imagenes/cctv.jpg" alt="CCTV">
+        <h3>📹 CCTV</h3>
+        <p>Instalación y configuración de cámaras de seguridad y monitoreo remoto.</p>
+    </div>
 
-<div class="card">
-<h3>🏠 Domótica</h3>
-<p>
-Control de iluminación,
-automatización y hogares inteligentes.
-</p>
-</div>
+    <div class="card">
+        <img src="imagenes/domotica5.jpg" alt="Domótica">
+        <h3>🏠 Domótica</h3>
+        <p>Control de iluminación, automatización y hogares inteligentes.</p>
+    </div>
 
-<div class="card">
-<h3>🌐 Redes</h3>
-<p>
-Cableado estructurado,
-WiFi y redes empresariales.
-</p>
-</div>
+    <div class="card">
+        <img src="imagenes/router.jpg" alt="Redes">
+        <h3>🌐 Redes</h3>
+        <p>Cableado estructurado, WiFi y redes empresariales.</p>
+    </div>
 
-<div class="card">
-<h3>☀️ Energía Solar</h3>
-<p>
-Asesoramiento e instalación de sistemas
-fotovoltaicos.
-</p>
-</div>
+    <div class="card">
+        <img src="imagenes/paneles2.jpg" alt="Energía Solar">
+        <h3>☀️ Energía Solar</h3>
+        <p>Asesoramiento e instalación de sistemas fotovoltaicos.</p>
+    </div>
 
-<div class="card">
-<h3>🏭 Automatización Industrial</h3>
-<p>
-PLC, sensores, control y monitoreo de procesos.
-</p>
-</div>
+    <div class="card">
+        <img src="imagenes/automatizacion.jpg" alt="Automatización Industrial">
+        <h3>🏭 Automatización Industrial</h3>
+        <p>PLC, sensores, control y monitoreo de procesos.</p>
+    </div>
 
 </div>
-
-</section>
 
 <section>
 
-<h2>Trabajos Realizados</h2>
+<h2>Trabajos Que Realizamos</h2>
 
 <div class="galeria">
 
-<img src="imagenes/images1.jpg" alt="Trabajo 1">
 
 <img src="imagenes/images2.png" alt="Trabajo 2">
 
-<img src="imagenes/images3.jpg" alt="Trabajo 3">
+<img src="imagenes/tablero02.png" alt="Trabajo 3">
 
-<img src="imagenes/images4.jpg" alt="Trabajo 4">
+<img src="imagenes/solar02.jpg" alt="Trabajo 4">
 
 
 </div>
+
 
 </section>
 
@@ -216,7 +210,7 @@ PLC, sensores, control y monitoreo de procesos.
 
 <div class="contacto">
 
-<p><strong>📱 WhatsApp:</strong> +54 9 1158001823</p>
+<p><strong>📱 WhatsApp:</strong> +54 1158001823</p>
 
 <p><strong>📧 Email:</strong> latinasmartsolutions@gmail.com</p>
 
